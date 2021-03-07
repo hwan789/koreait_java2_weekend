@@ -6,15 +6,18 @@ public class Dog extends Animal {
     
     public Dog(String name) {
     	super(name);
-    	super.age = 1;
+//    	super.age = 1;
     	this.cutiness = true;
+//    	super.type = "";
+//    	super.method();
     }
     
+    @Override
     void cry() {
     	System.out.println("개가 운다.");
     }
     
-    void barking() {
+    void bark() {
     	System.out.println("개가 짖는다.");
     }
     

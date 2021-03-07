@@ -1,9 +1,7 @@
 package com.kita.second.level1.practice;
 
 public class Tv {
-   
-	
-	
+  
 	//필드
 	//전원(isPowerOn) 채널(channel) 볼륨(volume)
 	private boolean isPowerOn;
