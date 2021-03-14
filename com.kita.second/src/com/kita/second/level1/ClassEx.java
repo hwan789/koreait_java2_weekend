@@ -47,7 +47,7 @@ public class ClassEx  {
       int sum(int n1, int n2, int n3 ) {
     	  int result = sum(n1, n2) + n3;
     	  return result;
-      }
+     }
       //int sum(int[] arr){}
       //int[] arr;
       int sum(int... arr) { 
